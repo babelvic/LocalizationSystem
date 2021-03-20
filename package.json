@@ -1,0 +1,14 @@
+{
+  "name": "com.babelgames.localizationsystem",
+  "displayName": "Localization System",
+  "version": "1.0.0",
+  "unity": "2020.2",
+  "description": "A tool for Localization",
+  "documentationUrl": "https://github.com/Vito18720/LocalizationSystem",
+  "author": {
+    "name": "Babel Games",
+    "email": "info@babelgames.es",
+    "url": "https://github.com/Vito18720"
+  },
+  "type": "library"
+}
