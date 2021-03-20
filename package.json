@@ -1,7 +1,7 @@
 {
   "name": "com.babelgames.localizationsystem",
   "displayName": "Localization System",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2020.2",
   "description": "A tool for Localization",
   "documentationUrl": "https://github.com/Vito18720/LocalizationSystem",
