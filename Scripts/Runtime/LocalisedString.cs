@@ -8,6 +8,6 @@ public struct LocalisedString
     
     public static implicit operator string(LocalisedString textField)
     {
-        return LocalizationSystem.GetString(textField.csvFile, textField.value);
+        return textField.csvFile == null ? "CSV File not attached" : LocalizationSystem.GetString(textField.csvFile, textField.value);
     }
 }

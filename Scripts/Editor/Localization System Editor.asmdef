@@ -1,8 +1,7 @@
 {
     "name": "LocalizationSystemEditor",
-    "rootNamespace": "",
     "references": [
-        "GUID:cb85318e0eded534bb4d450b79a352e1"
+        "GUID:bbd2e05e369110440a880430442d36e3"
     ],
     "includePlatforms": [
         "Editor"
