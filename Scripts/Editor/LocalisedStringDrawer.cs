@@ -92,11 +92,11 @@ public class LocalisedStringDrawer : PropertyDrawer
     {
         List<string> IDs = new List<string>();
         
-        string[] csvData = csvFile.text.Split(new char[]{'\n'});
+        string[] csvData = csvFile.text.Split('\n');
 
         for (int i = 1; i < csvData.Length - 1; i++)
         {
-            string[] csvInfo = csvData[i].Split(new char[] {';'});
+            string[] csvInfo = csvData[i].Split(';');
 
             IDs.Add(csvInfo[0]);
         }
